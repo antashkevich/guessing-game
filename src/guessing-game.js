@@ -11,7 +11,7 @@ class GuessingGame {
     }
 
     guess() {
-		this.value = Math.ceil((this.minValue + this.mamaxValueximum) / 2);
+		this.value = Math.ceil(this.minValue + ((this.maxValue-this.minValue) / 2));
 	        return this.value;
 	}
 
